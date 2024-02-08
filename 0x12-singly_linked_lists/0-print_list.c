@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include "lists.h"
-#include <stdlib.h>
-#include <string.h>
 
 /**
  * print_list - A function that returns the number of nodes
@@ -26,7 +24,7 @@ size_t print_list(const list_t *h)
 		}
 			h = h->next;
 			count++;
+	}
 
 		return (count);
-	}
 }
